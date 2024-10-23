@@ -24,6 +24,20 @@ header {
     text-align: center;
 }
 
+.intro p, .resume p, .soccer ul, .contact p {
+    text-align: left; /* Align text to the left */
+}
+
+.quick-info ul, .soccer ul, .contact ul {
+    text-align: left; /* Ensure lists are left-aligned */
+}
+
+.container {
+    width: 80%;
+    margin: auto; /* This centers the container */
+    overflow: hidden; /* Maintain layout integrity */
+}
+
 header h1 {
     margin-bottom: 10px;
 }
@@ -120,4 +134,19 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 40px;
+}
+
+.headshot {
+    width: 150px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make it circular */
+    display: block; /* Ensure it behaves like a block element */
+    margin: 0 auto 20px; /* Center horizontally, add margin below */
+}
+
+.social-logo {
+    width: 30px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align vertically with text */
+    margin-left: 5px; /* Add space to the left of the logo */
 }
